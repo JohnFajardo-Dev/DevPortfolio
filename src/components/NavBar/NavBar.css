@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
+    padding: 2rem 0;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.button{
+    border-radius: 10px;
+    width: auto;
+    background-color: transparent;
+    border: 2px solid var(--nofocus-txt-color);
+    margin: 1rem 0;
+}
+.button p{
+    padding: 1rem 2.5rem;
+    color: var(--focus-txt-color);
+    font-size: 1rem;
+}
