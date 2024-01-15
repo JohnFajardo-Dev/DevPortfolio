@@ -1,6 +1,11 @@
+.card{
+    display: inline-block;
+    margin: 1em 0;
+}
+
 .title-card{
-    color: var(--focus-txt-color);
-    font-size: 17px;
+    color: var(--clean-txt-color);
+    font-size: 25px;
     padding: 1em 0;
 }
 
@@ -8,6 +13,7 @@
     padding: 0 0 1em 0;
     color: var(--focus-txt-color);
     line-height: 1.5;
+    font-size: 17px;
 }
 
 .img-card{

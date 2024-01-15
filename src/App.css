@@ -3,6 +3,7 @@
     --main-bg-color: #181A1B;
     --focus-txt-color: #CCC8C1;
     --nofocus-txt-color: #9D9588;
+    --clean-txt-color:#ffffff;
     --default-font: 'Inter', sans-serif;
     --cursive-font: 'Pacifico', cursive;
 }
@@ -40,7 +41,7 @@ body{
 }
 
 main{
-    height: 70vh;
+    height: 75vh;
     display: flex;
     align-items: center;
 
@@ -50,14 +51,13 @@ main{
     padding: 1em 0;
 }
 
-.works h2{
+.title-works{
     font-size: 25px;
-    color: var(--focus-txt-color);
+    color: var(--clean-txt-color);
 }
 
 .projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 12rem;
-    padding: 2em 0;
+    columns: 3 350px;
+    column-gap: 5em;
+    margin: 1em 0;
 }

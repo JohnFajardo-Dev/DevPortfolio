@@ -2,7 +2,6 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Button from "./components/Button/Button";
 import Cards from "./components/Cards/Cards";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -18,36 +17,30 @@ function App() {
             <br /> and <span className="focustxt">opensource</span>
           </h2>
           <Button />
-          <aside>
-            <FontAwesomeIcon
-              icon="fa-brands fa-linkedin"
-              size="2em"
-              color="#ff0000"
-            />
-          </aside>
         </article>
       </main>
       <section className="works" id="works">
-        <h2>My Works</h2>
+        <h2 className="title-works">My Works</h2>
         <section className="projects">
           <Cards
             title="WeatherApp"
             description="WeatherApp is a simple application to check the weather for different cities around the world. "
             image="src/assets/picture1.jpg"
             link="https://github.com/Fajardo-dev/WeatherApp"
-          />{" "}
-          <Cards
-            title='The "Fast Fourier Transform" (FFT)
-            '
-            description="This code analyzes the frequency content of a simple sine wave using the Fast Fourier Transform (FFT)."
-            image="src/assets/picture2.jpg"
             downstyle="true"
           />{" "}
           <Cards
-            title="Proyecto 3"
-            description="jkasjdkf askdjfkaskdjfkas kjasdkfjaskj ksjaksjaks jka sjkajsk"
+            title='The "Fast Fourier Transform" (FFT)
+              '
+            description="This code analyzes the frequency content of a simple sine wave using the Fast Fourier Transform (FFT)."
+            image="src/assets/picture2.jpg"
+          />{" "}
+          <Cards
+            title="Portfolio v1 John Fajardo"
+            description="Version 1 of John Fajardo's portfolio, made with html, css and javascript"
             image="src/assets/picture3.jpg"
-          />
+            downstyle="true"
+          />{" "}
         </section>
       </section>
     </>
