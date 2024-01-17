@@ -11,6 +11,11 @@
     padding: 2rem 0;
 }
 
+.name:hover{
+    color: var(--clean-txt-color);
+    transition: all 0.2s ease;
+}
+
 .menu{
     display: flex;
 }
@@ -18,4 +23,9 @@
     padding: 2rem;
     display: flex;
     align-items: center;
+}
+
+.menu li a:hover{
+    color: var(--clean-txt-color);
+    transition: all 0.2s ease;
 }

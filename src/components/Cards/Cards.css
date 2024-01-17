@@ -6,11 +6,11 @@
 .title-card{
     color: var(--clean-txt-color);
     font-size: 25px;
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
 .description-card{
-    padding: 0 0 1em 0;
+    padding: 0.5em 0;
     color: var(--focus-txt-color);
     line-height: 1.5;
     font-size: 17px;
@@ -27,9 +27,18 @@
     background-color: transparent;
     border: 3px solid var(--focus-txt-color);
     margin: 1em 0;
+    cursor:pointer;
 }
 .button-card p{
     padding: 1rem 2.5rem;
     color: var(--focus-txt-color);
     font-size: 1rem;
+}
+
+.button-card:hover{
+    background-color: var(--focus-txt-color);
+}
+
+.button-card p:hover{
+    color: var(--main-bg-color);
 }

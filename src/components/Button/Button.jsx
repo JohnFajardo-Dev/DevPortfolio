@@ -1,10 +1,11 @@
 import "./Button.css";
 
-function Button() {
-  let title = "Resume";
+function Button({ title }) {
   return (
     <button className="button">
-      <p>{title}</p>
+      <a href="src/assets/files/John-Fajardo-CV.pdf">
+        <p>{title}</p>
+      </a>
     </button>
   );
 }
