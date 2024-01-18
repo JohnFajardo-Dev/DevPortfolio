@@ -72,6 +72,13 @@ function App() {
             link="https://github.com/Fajardo-dev/FFT"
           />{" "}
           <Cards
+            title="VideoGame"
+            description="In development"
+            image="assets/game.gif"
+            downstyle="false"
+            link="#"
+          />
+          <Cards
             title="Portfolio v1 John Fajardo"
             description="Version 1 of John Fajardo's portfolio, made with html, css and javascript"
             image="assets/picture3.jpg"
