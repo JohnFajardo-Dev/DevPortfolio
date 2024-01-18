@@ -6,7 +6,7 @@ function NavBar() {
       <h1 className="name">JF</h1>
       <ul className="menu">
         <li>
-          <a href="">about</a>
+          <a href="#about">about</a>
         </li>
         <li>
           <a href="#works">works</a>

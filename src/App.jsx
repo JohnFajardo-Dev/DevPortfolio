@@ -22,7 +22,7 @@ function App() {
     <>
       <NavBar />
       <main>
-        <section className="start-home">
+        <section className="start-home" id="home">
           <article>
             <h1 className="focustxt">Hi, Im John!</h1>
             <h2 className="txthome">
@@ -83,7 +83,7 @@ function App() {
 
       <section className="about" id="about">
         <article className="about-txt">
-          <h1>John Fajardo</h1>
+          <h1>About me</h1>
           <h2>
             <span className="focustxt">Programmer</span> and{" "}
             <span className="focustxt">Web Developer</span> passionate about
@@ -96,6 +96,7 @@ function App() {
           <img src="assets/profile.jpg" alt="" />
         </article>
       </section>
+
       <section className="skill-slider">
         <article className="skills">
           <span>

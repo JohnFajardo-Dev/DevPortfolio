@@ -116,10 +116,10 @@ main{
 
 .img-profile{
     margin: auto;
-    display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem 0;
+    text-align: center;
 
 }
 .img-profile img{
