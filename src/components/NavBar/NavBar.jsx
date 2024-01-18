@@ -3,7 +3,10 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <nav className="navbar">
-      <h1 className="name">JF</h1>
+      <a href="">
+        <h1 className="name">JF</h1>
+      </a>
+
       <ul className="menu">
         <li>
           <a href="#about">about</a>

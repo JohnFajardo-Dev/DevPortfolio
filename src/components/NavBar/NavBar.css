@@ -9,6 +9,7 @@
     font-size: 1.5rem;
     font-family: 'Pacifico', cursive;
     padding: 2rem 0;
+    cursor: pointer;
 }
 
 .name:hover{
