@@ -2,7 +2,19 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Button from "./components/Button/Button";
 import Cards from "./components/Cards/Cards";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faReact,
+  faPython,
+  faAndroid,
+  faNpm,
+  faNode,
+  faLinux,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
@@ -67,6 +79,59 @@ function App() {
             link="https://github.com/Fajardo-dev/Portfolio"
           />{" "}
         </section>
+      </section>
+      <section className="skill-slider">
+        <article className="skills">
+          <span>
+            <FontAwesomeIcon icon={faHtml5} size="5x" />
+            <p>HTML</p>
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faCss3Alt} size="5x" />
+            <p>CSS</p>
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faJs} size="5x" />
+            <p>JavaScript</p>
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faReact} size="5x" />
+            <p>React</p>
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faPython} size="5x" />
+            <p>Python</p>
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faAndroid} size="5x" />
+            <p>Android</p>
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faNpm} size="5x" />
+            <p>NPM</p>
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faNode} size="5x" />
+            <p>Node</p>
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faLinux} size="5x" />
+            <p>Linux</p>
+          </span>
+        </article>
+      </section>
+      <section className="about" id="about">
+        <article className="about-txt">
+          <h1>John Fajardo</h1>
+          <h2>
+            Programmer and Web Developer passionate about UI/UX design and open
+            source development with more than 4 years of experience in the world
+            of development and technology.
+          </h2>
+        </article>
+        <article className="img-profile">
+          <img src="assets/profile.jpg" alt="" />
+        </article>
       </section>
     </>
   );

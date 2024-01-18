@@ -76,3 +76,57 @@ main{
     column-gap: 5em;
     margin: 1em 0;
 }
+
+.skill-slider{
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.skills{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skills span{
+}
+
+.skills span p{
+    margin: 0.5rem 0;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.about-txt{
+    margin: 0rem 0;
+}
+
+.about-txt h1{
+    font-size: 4rem;
+    color: var(--clean-txt-color);
+    margin: 1rem 0;
+}
+
+.about-txt h2{
+    font-size: 2rem;
+    width: 50%;
+    line-height: 1.2;
+}
+
+.img-profile{
+    width: 100%;
+    margin: auto;
+}
+.img-profile img{
+    border-radius: 100%;
+    width: 90%;
+}
