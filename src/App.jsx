@@ -80,6 +80,22 @@ function App() {
           />{" "}
         </section>
       </section>
+
+      <section className="about" id="about">
+        <article className="about-txt">
+          <h1>John Fajardo</h1>
+          <h2>
+            <span className="focustxt">Programmer</span> and{" "}
+            <span className="focustxt">Web Developer</span> passionate about
+            UI/UX design and <span className="focustxt">open source</span>{" "}
+            development with more than 4 years of experience in the world of
+            development and technology.
+          </h2>
+        </article>
+        <article className="img-profile">
+          <img src="assets/profile.jpg" alt="" />
+        </article>
+      </section>
       <section className="skill-slider">
         <article className="skills">
           <span>
@@ -118,19 +134,6 @@ function App() {
             <FontAwesomeIcon icon={faLinux} size="5x" />
             <p>Linux</p>
           </span>
-        </article>
-      </section>
-      <section className="about" id="about">
-        <article className="about-txt">
-          <h1>John Fajardo</h1>
-          <h2>
-            Programmer and Web Developer passionate about UI/UX design and open
-            source development with more than 4 years of experience in the world
-            of development and technology.
-          </h2>
-        </article>
-        <article className="img-profile">
-          <img src="assets/profile.jpg" alt="" />
         </article>
       </section>
     </>

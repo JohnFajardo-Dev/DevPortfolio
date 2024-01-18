@@ -93,40 +93,36 @@ main{
     flex-wrap: wrap;
 }
 
-.skills span{
-}
-
 .skills span p{
     margin: 0.5rem 0;
 }
 
 .about{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.about-txt{
-    margin: 0rem 0;
+    columns: 2 300px;
+    width: 60%;
+    margin: auto;
 }
 
 .about-txt h1{
-    font-size: 4rem;
+    font-size: 2rem;
     color: var(--clean-txt-color);
     margin: 1rem 0;
 }
 
 .about-txt h2{
-    font-size: 2rem;
-    width: 50%;
+    font-size: 1.5rem;
     line-height: 1.2;
 }
 
 .img-profile{
-    width: 100%;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+
 }
 .img-profile img{
     border-radius: 100%;
-    width: 90%;
+    width: 50%;
 }
