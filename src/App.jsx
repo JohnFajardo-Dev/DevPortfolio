@@ -95,8 +95,9 @@ function App() {
             <span className="focustxt">Programmer</span> and{" "}
             <span className="focustxt">Web Developer</span> passionate about
             UI/UX design and <span className="focustxt">open source</span>{" "}
-            development with more than 4 years of experience in the world of
-            development and technology.
+            development with more than{" "}
+            <span className="focustxt">4 years of experience</span> in the world
+            of development and technology.
           </h2>
         </article>
         <article className="img-profile">

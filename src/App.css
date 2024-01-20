@@ -39,7 +39,7 @@ body{
 }
 
 .focustxt{
-    color: var(--focus-txt-color);
+    color: var(--clean-txt-color);
 }
 
 main{
