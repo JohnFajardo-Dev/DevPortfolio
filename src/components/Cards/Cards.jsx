@@ -1,11 +1,15 @@
 import "./Cards.css";
 
-function Cards({ title, description, image, downstyle, link }) {
+function Cards({ title, description, image, downstyle, link, indev }) {
   return (
     <article>
       {downstyle ? (
         <div className="card">
-          <img src={image} alt="" className="img-card" />
+          {indev ? (
+            <img src={image} alt="" className="img-card img-indev" />
+          ) : (
+            <img src={image} alt="" className="img-card" />
+          )}
           <h2 className="title-card">{title}</h2>
           <p className="description-card">{description}</p>
           <button
@@ -21,7 +25,11 @@ function Cards({ title, description, image, downstyle, link }) {
         <div className="card">
           <h2 className="title-card">{title}</h2>
           <p className="description-card">{description}</p>
-          <img src={image} alt="" className="img-card" />
+          {indev ? (
+            <img src={image} alt="" className="img-card img-indev" />
+          ) : (
+            <img src={image} alt="" className="img-card" />
+          )}
           <button
             className="button-card"
             onClick={() => {

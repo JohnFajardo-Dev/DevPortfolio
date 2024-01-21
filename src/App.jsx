@@ -77,6 +77,7 @@ function App() {
             image="assets/game.gif"
             downstyle="false"
             link="#"
+            indev="true"
           />
           <Cards
             title="Portfolio v1 John Fajardo"

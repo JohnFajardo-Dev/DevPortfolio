@@ -137,3 +137,7 @@ main{
     border-radius: 100%;
     width: 50%;
 }
+
+.img-indev{
+    filter: blur(0.3rem);
+}
