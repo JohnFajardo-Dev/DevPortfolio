@@ -1,0 +1,18 @@
+.skill{
+    width: 8rem;
+}
+
+.skill p{
+    margin: 0.5rem 0;
+}
+
+.skills{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,33 @@
+.about{
+    columns: 2 300px;
+    width: 60%;
+    margin: auto;
+}
+
+.about-txt h1{
+    font-size: 2rem;
+    color: var(--clean-txt-color);
+    margin: 1rem 0;
+}
+
+.about-txt h2{
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.img-profile{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    text-align: center;
+
+}
+.img-profile img{
+    border-radius: 100%;
+    width: 50%;
+}
+
+.img-indev{
+    filter: blur(0.3rem);
+}

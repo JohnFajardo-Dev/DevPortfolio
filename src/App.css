@@ -43,12 +43,6 @@ p{
     text-wrap: pretty;
 }
 
-.txthome{
-    padding: 1em 0 0.5em 0;
-    font-size: 25px;
-    color: var(--nofocus-txt-color);
-    line-height: 2;
-}
 
 .focustxt{
     color: var(--focus-txt-color);
@@ -60,90 +54,6 @@ main{
     align-items: center;
 }
 
-.start-home{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.icons-side{
-    display: inline-grid;
-}
-
 .icon{
     color: #fff;
-}
-
-.works{
-    padding: 1em 0;
-}
-
-.title-works{
-    font-size: 25px;
-    color: var(--clean-txt-color);
-}
-
-.projects{
-    columns: 3 350px;
-    column-gap: 5em;
-    margin: 1em 0;
-}
-
-.skill-slider{
-    width: 100%;
-    margin: 5rem 0;
-}
-
-.skills{
-    display: flex;
-    margin: auto;
-    width: 90%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-
-}
-
-.skill{
-    width: 8rem;
-}
-
-.skills span p{
-    margin: 0.5rem 0;
-}
-
-.about{
-    columns: 2 300px;
-    width: 60%;
-    margin: auto;
-}
-
-.about-txt h1{
-    font-size: 2rem;
-    color: var(--clean-txt-color);
-    margin: 1rem 0;
-}
-
-.about-txt h2{
-    font-size: 1.5rem;
-    line-height: 1.4;
-}
-
-.img-profile{
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 0;
-    text-align: center;
-
-}
-.img-profile img{
-    border-radius: 100%;
-    width: 50%;
-}
-
-.img-indev{
-    filter: blur(0.3rem);
 }
