@@ -108,39 +108,39 @@ function App() {
 
       <section className="skill-slider">
         <article className="skills">
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faHtml5} size="5x" />
             <p>HTML</p>
           </span>
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faCss3Alt} size="5x" />
             <p>CSS</p>
           </span>
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faJs} size="5x" />
             <p>JavaScript</p>
           </span>
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faReact} size="5x" />
             <p>React</p>
           </span>
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faPython} size="5x" />
             <p>Python</p>
           </span>
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faAndroid} size="5x" />
             <p>Android</p>
           </span>
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faNpm} size="5x" />
             <p>NPM</p>
           </span>
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faNode} size="5x" />
             <p>Node</p>
           </span>
-          <span>
+          <span className="skill">
             <FontAwesomeIcon icon={faLinux} size="5x" />
             <p>Linux</p>
           </span>

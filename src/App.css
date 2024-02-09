@@ -98,11 +98,16 @@ main{
     display: flex;
     margin: auto;
     width: 90%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
     gap: 2rem;
     flex-wrap: wrap;
+
+}
+
+.skill{
+    width: 8rem;
 }
 
 .skills span p{
