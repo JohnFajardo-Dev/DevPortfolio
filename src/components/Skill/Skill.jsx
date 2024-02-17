@@ -1,4 +1,5 @@
 import "./Skill.css";
+import "../../App.css";
 import {
   faHtml5,
   faCss3Alt,
@@ -38,9 +39,8 @@ function Skill({ name }) {
   );
 }
 
-// Componente contenedor que renderiza una lista de habilidades
+// Componente contenedor que renderiza la lista de habilidades
 function SkillsContainer() {
-  // Lista de habilidades a mostrar
   const skills = [
     "HTML",
     "CSS",

@@ -1,5 +1,5 @@
 .skill{
-    width: 8rem;
+    width: 10rem;
 }
 
 .skill p{
@@ -9,10 +9,16 @@
 .skills{
     display: flex;
     margin: auto;
-    width: 90%;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 2rem;
     flex-wrap: wrap;
+    margin: 5rem 0;
+}
+
+.skill{
+    border-radius: 2rem;
+    border: 2px solid;
+    padding: 1rem;
 }
