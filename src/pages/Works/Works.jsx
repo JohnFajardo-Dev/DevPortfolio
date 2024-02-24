@@ -11,21 +11,6 @@ function Works() {
           image="assets/works/WeatherApp.jpg"
           link="https://github.com/Fajardo-dev/WeatherApp"
           downstyle="true"
-        />{" "}
-        <Cards
-          title='The "Fast Fourier Transform" (FFT)'
-          description="This code analyzes the frequency content of a simple sine wave using the Fast Fourier Transform (FFT)."
-          image="assets/works/FFT.jpg"
-          link="https://github.com/Fajardo-dev/FFT"
-          downstyle="false"
-        />{" "}
-        <Cards
-          title="VideoGame"
-          description="In development"
-          image="assets/works/VideoGame.gif"
-          downstyle="false"
-          link="#"
-          indev="true"
         />
         <Cards
           title="Portfolio v1 John Fajardo"
@@ -33,14 +18,21 @@ function Works() {
           image="assets/works/PortfolioV1.jpg"
           downstyle="true"
           link="https://github.com/Fajardo-dev/Portfolio"
-        />{" "}
+        />
+        <Cards
+          title='The "Fast Fourier Transform" (FFT)'
+          description="This code analyzes the frequency content of a simple sine wave using the Fast Fourier Transform (FFT)."
+          image="assets/works/FFT.jpg"
+          link="https://github.com/Fajardo-dev/FFT"
+          downstyle="false"
+        />
         <Cards
           title="GraffArt"
           description="Graffiti art gallery, with an urban style"
           image="assets/works/GraffArt.png"
           downstyle="true"
           link="https://github.com/Fajardo-dev/GraffArt"
-        />{" "}
+        />
       </section>
     </section>
   );
