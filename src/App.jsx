@@ -1,6 +1,5 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
-import SkillsContainer from "./components/Skill/Skill";
 import Home from "./pages/Home/Home";
 import Works from "./pages/Works/Works";
 import About from "./pages/About/About";
@@ -14,7 +13,6 @@ function App() {
       </main>
       <Works />
       <About />
-      <SkillsContainer />
     </>
   );
 }
