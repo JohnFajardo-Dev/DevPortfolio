@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 function App() {
   return (
     <>
+      <header id="home"></header>
       <NavBar />
       <main>
         <Home />

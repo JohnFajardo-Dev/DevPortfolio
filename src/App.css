@@ -1,6 +1,7 @@
 /*Colors*/
 :root{
     --main-bg-color: #181A1B;
+    --transparent-bg-color: #181a1bd2;
     --focus-txt-color: #CCC8C1;
     --nofocus-txt-color: #9D9588;
     --clean-txt-color:#ffffff;

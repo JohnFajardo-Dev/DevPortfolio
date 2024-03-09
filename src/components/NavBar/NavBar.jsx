@@ -9,13 +9,13 @@ function NavBar() {
 
       <ul className="menu">
         <li>
-          <a href="#about">about</a>
+          <a href="#home">home</a>
         </li>
         <li>
           <a href="#works">works</a>
         </li>
         <li>
-          <a href="index.html">home</a>
+          <a href="#about">about</a>
         </li>
       </ul>
     </nav>

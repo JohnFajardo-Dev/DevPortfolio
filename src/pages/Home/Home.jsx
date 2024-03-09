@@ -1,5 +1,5 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Button from "../../components/Button/Button";
 import "./Home.css";
 import Location from "../../components/Location/Location";
@@ -19,26 +19,6 @@ function Home() {
         </h2>
         <Button title="Resume" />
       </article>
-      <aside className="icons-side">
-        <div>
-          <a
-            href="https://github.com/Fajardo-dev"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://www.linkedin.com/in/johnfajardo06/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon className="icon" icon={faLinkedin} size="2x" />
-          </a>
-        </div>
-      </aside>
     </section>
   );
 }
