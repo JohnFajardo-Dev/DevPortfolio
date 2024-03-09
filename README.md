@@ -1,4 +1,6 @@
-#Oficial Portfolio
+# Oficial Portfolio
+![image](https://github.com/Fajardo-dev/Portfolio-v2/assets/62899394/0bcc03ab-95ef-4db4-8adc-79c1a48afb59)
+
 
 ## Technologies Used
 
