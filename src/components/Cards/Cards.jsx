@@ -1,13 +1,13 @@
 import "./Cards.css";
 
-function Cards({ title, description, image, href, tag }) {
+function Cards({ title, description, image, href, skills }) {
   return (
     <article>
       <div className="card">
         <img src={image} alt="" className="img-card" />
 
         <article className="used-skills-cont">
-          <h3 className="used-skills-txt">{tag}</h3>
+          <h3 className="used-skills-txt">{skills}</h3>
         </article>
 
         <h2 className="title-card">{title}</h2>
