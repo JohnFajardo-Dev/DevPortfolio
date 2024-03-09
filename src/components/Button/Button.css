@@ -3,7 +3,6 @@
     width: auto;
     background-color: transparent;
     border: 3px solid var(--focus-txt-color);
-    margin: 1rem 0;
     cursor: pointer;
 }
 .button p{
