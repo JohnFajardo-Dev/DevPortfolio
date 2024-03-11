@@ -12,13 +12,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 2rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
-    margin: 5rem 0;
+    margin: 3rem 0;
 }
 
 .skill{
-    border-radius: 2rem;
+    width: fit-content;
+    border-radius: 20px;
     border: 2px solid;
-    padding: 1rem;
-}
+    padding: 1rem 1.5rem;
+}   
