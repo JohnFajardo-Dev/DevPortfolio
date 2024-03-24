@@ -13,11 +13,11 @@ function Works() {
           skills="HTML CSS JS"
         />
         <Cards
-          title="Portfolio v1 John Fajardo"
-          description="Version 1 of John Fajardo's portfolio, made with html, css and javascript"
-          image="assets/works/PortfolioV1.jpg"
-          href="https://github.com/Fajardo-dev/Portfolio"
-          skills="HTML CSS JS"
+          title="GraffArt"
+          description="Graffiti art gallery, with an urban style"
+          image="assets/works/GraffArt.png"
+          href="https://github.com/Fajardo-dev/GraffArt"
+          skills="HTML CSS JS REACT"
         />
         <Cards
           title='The "Fast Fourier Transform" (FFT)'
@@ -27,11 +27,11 @@ function Works() {
           skills="PYTHON"
         />
         <Cards
-          title="GraffArt"
-          description="Graffiti art gallery, with an urban style"
-          image="assets/works/GraffArt.png"
-          href="https://github.com/Fajardo-dev/GraffArt"
-          skills="HTML CSS JS REACT"
+          title="Portfolio v1 John Fajardo"
+          description="Version 1 of John Fajardo's portfolio, made with html, css and javascript"
+          image="assets/works/PortfolioV1.jpg"
+          href="https://github.com/Fajardo-dev/Portfolio"
+          skills="HTML CSS JS"
         />
       </section>
     </section>
