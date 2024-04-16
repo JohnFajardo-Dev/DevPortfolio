@@ -45,6 +45,8 @@ function Works() {
           image="assets/works/TruthEscape.gif"
           href="http://github.com/Fajardo-dev/TruthEscape-WebSite"
           skills="REACT"
+          website="true"
+          weblink="https://truthescape.netlify.app/"
         />
       </section>
     </section>
