@@ -11,13 +11,17 @@ function Works() {
           image="assets/works/WeatherApp.jpg"
           href="https://github.com/Fajardo-dev/WeatherApp"
           skills="HTML CSS JS"
+          website="true"
+          weblink="https://fajardo-dev-weatherapp.netlify.app/"
         />
         <Cards
           title="GraffArt"
           description="Graffiti art gallery, with an urban style"
           image="assets/works/GraffArt.png"
           href="https://github.com/Fajardo-dev/GraffArt"
-          skills="HTML CSS JS REACT"
+          skills="REACT"
+          website="true"
+          weblink="https://graffart.netlify.app/"
         />
         <Cards
           title='The "Fast Fourier Transform" (FFT)'
@@ -32,6 +36,15 @@ function Works() {
           image="assets/works/PortfolioV1.jpg"
           href="https://github.com/Fajardo-dev/Portfolio"
           skills="HTML CSS JS"
+          website="true"
+          weblink="https://fajardo-dev.netlify.app/"
+        />
+        <Cards
+          title="Truth Escape - WebSite"
+          description="Truth Escape VideoGame Oficial Web Site"
+          image="assets/works/TruthEscape.gif"
+          href="http://github.com/Fajardo-dev/TruthEscape-WebSite"
+          skills="REACT"
         />
       </section>
     </section>
