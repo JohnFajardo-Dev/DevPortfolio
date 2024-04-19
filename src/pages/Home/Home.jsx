@@ -3,21 +3,20 @@
 import Button from "../../components/Button/Button";
 import "./Home.css";
 import Location from "../../components/Location/Location";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
   return (
     <section className="start-home" id="home">
       <article>
-        <h1 className="focustxt">Hi, Im John!</h1>
+        <h1 className="focustxt">{t("greeting_home")}</h1>
 
         <h2 className="txthome">
-          <span className="focustxt">Programmer</span> and{" "}
-          <span className="focustxt">Web Developer</span> passionate about{" "}
-          <span className="focustxt">design</span>
-          <br /> and <span className="focustxt">opensource</span>
+          {t("aboutme_home")}
           <Location />
         </h2>
-        <Button title="Resume" />
+        <Button title={t("resume_btn_home")} />
       </article>
     </section>
   );

@@ -1,0 +1,31 @@
+{
+    "home_nav":"inicio",
+    "works_nav":"trabajos",
+    "about_nav":"acerca de mi",
+    "greeting_home":"Hola, Soy John!",
+
+    "aboutme_home":"Programador y Desarrollador Web apasionado por el diseño y el código abierto",
+    
+
+
+
+    "resume_btn_home":"Ver CV",
+
+    "works_title":"Mis Trabajos",
+    "view_project_btn_works":"Ver Proyecto",
+    "view_site_btn_works":"Ver sitio",
+    
+    "weatherapp_title":"WeatherApp",
+    "weatherapp_description":"WeatherApp es una sencilla aplicación para consultar el tiempo de diferentes ciudades del mundo.",
+    "fft_title":"La transformada rápida de Fourier (FFT)",
+    "fft_description":"Este código analiza el contenido de frecuencia de una onda sinusoidal simple utilizando la Transformada Rápida de Fourier (FFT).",
+    "graffart_title":"GraffArt",
+    "graffart_description":"Galería de arte graffiti, con estilo urbano.",
+    "portfoliov1_title":"Portfolio v1 John Fajardo",
+    "portfolio_description":"Versión 1 del portafolio de John Fajardo",
+    "truthescape_title":"Truth Escape - WebSite",
+    "truthescape_description":"Sitio Web Oficial del videojuego Truth Escape",
+
+    "title_aboutme":"Acerca de mi",
+    "description_aboutme":"Programador y Desarrollador Web apasionado por el diseño UI/UX y el desarrollo open source con más de 4 años de experiencia en el mundo del desarrollo y la tecnología."
+}

@@ -1,19 +1,14 @@
 import "./About.css";
 import Skill from "../../components/Skill/Skill";
+import { useTranslation } from "react-i18next";
 function About() {
+  const { t } = useTranslation();
   return (
     <>
       <section className="about" id="about">
         <article className="about-txt">
-          <h1>About me</h1>
-          <h2>
-            <span className="focustxt">Programmer</span> and{" "}
-            <span className="focustxt">Web Developer</span> passionate about
-            UI/UX design and <span className="focustxt">open source</span>{" "}
-            development with more than{" "}
-            <span className="focustxt">4 years of experience</span> in the world
-            of development and technology.
-          </h2>
+          <h1>{t("title_aboutme")}</h1>
+          <h2>{t("description_aboutme")}</h2>
         </article>
         <article className="img-profile">
           <img src="assets/profile.jpg" alt="" />

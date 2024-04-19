@@ -1,6 +1,8 @@
 import "./Cards.css";
+import { useTranslation } from "react-i18next";
 
 function Cards({ title, description, image, href, skills, website, weblink }) {
+  const { t } = useTranslation();
   return (
     <article>
       <div className="card">
@@ -19,7 +21,7 @@ function Cards({ title, description, image, href, skills, website, weblink }) {
               window.open(href, "_blank");
             }}
           >
-            <p>View project</p>
+            <p>{t("view_project_btn_works")}</p>
           </button>
 
           {website ? (
@@ -29,7 +31,7 @@ function Cards({ title, description, image, href, skills, website, weblink }) {
                 window.open(weblink, "_blank");
               }}
             >
-              <p>View site</p>
+              <p>{t("view_site_btn_works")}</p>
             </button>
           ) : (
             <></>

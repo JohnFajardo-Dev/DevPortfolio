@@ -1,8 +1,9 @@
 .txthome{
     padding: 1em 0 0.5em 0;
     font-size: 25px;
-    color: var(--nofocus-txt-color);
+    color: var(--focus-txt-color);
     line-height: 2;
+    width: 50ch;
 }
 .start-home{
     display: flex;

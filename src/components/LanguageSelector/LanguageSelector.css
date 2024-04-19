@@ -1,0 +1,14 @@
+.selector{
+    background-color: var(--main-bg-color);
+    border: none;
+    font-size: 1em;
+}
+
+select:hover{
+    color: var(--clean-txt-color);
+    transition: all 0.2s ease;
+}
+
+.options{
+    padding: 2rem;
+}

@@ -1,13 +1,16 @@
 import Cards from "../../components/Cards/Cards";
 import "./Works.css";
+import { useTranslation } from "react-i18next";
+
 function Works() {
+  const { t } = useTranslation();
   return (
     <section className="works" id="works">
-      <h2 className="title-works">My Works</h2>
+      <h2 className="title-works">{t("works_title")}</h2>
       <section className="projects">
         <Cards
-          title="WeatherApp"
-          description="WeatherApp is a simple application to check the weather for different cities around the world. "
+          title={t("weatherapp_title")}
+          description={t("weatherapp_description")}
           image="assets/works/WeatherApp.jpg"
           href="https://github.com/Fajardo-dev/WeatherApp"
           skills="HTML CSS JS"
@@ -15,8 +18,8 @@ function Works() {
           weblink="https://fajardo-dev-weatherapp.netlify.app/"
         />
         <Cards
-          title="GraffArt"
-          description="Graffiti art gallery, with an urban style"
+          title={t("graffart_title")}
+          description={t("graffart_description")}
           image="assets/works/GraffArt.png"
           href="https://github.com/Fajardo-dev/GraffArt"
           skills="REACT"
@@ -24,15 +27,15 @@ function Works() {
           weblink="https://graffart.netlify.app/"
         />
         <Cards
-          title='The "Fast Fourier Transform" (FFT)'
-          description="This code analyzes the frequency content of a simple sine wave using the Fast Fourier Transform (FFT)."
+          title={t("fft_title")}
+          description={t("fft_description")}
           image="assets/works/FFT.jpg"
           href="https://github.com/Fajardo-dev/FFT"
           skills="PYTHON"
         />
         <Cards
-          title="Portfolio v1 John Fajardo"
-          description="Version 1 of John Fajardo's portfolio, made with html, css and javascript"
+          title={t("portfoliov1_title")}
+          description={t("portfolio_description")}
           image="assets/works/PortfolioV1.jpg"
           href="https://github.com/Fajardo-dev/Portfolio"
           skills="HTML CSS JS"
@@ -40,8 +43,8 @@ function Works() {
           weblink="https://fajardo-dev.netlify.app/"
         />
         <Cards
-          title="Truth Escape - WebSite"
-          description="Truth Escape VideoGame Oficial Web Site"
+          title={t("truthescape_title")}
+          description={t("truthescape_description")}
           image="assets/works/TruthEscape.gif"
           href="http://github.com/Fajardo-dev/TruthEscape-WebSite"
           skills="REACT"

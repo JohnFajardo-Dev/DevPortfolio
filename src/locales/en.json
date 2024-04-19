@@ -1,0 +1,26 @@
+{
+    "home_nav":"home",
+    "works_nav":"works",
+    "about_nav":"about me",
+    "greeting_home":"Hi, Im John!",
+    "aboutme_home":"Programmer and Web Developer passionate about design and opensource",
+    "resume_btn_home":"See CV",
+
+    "works_title":"My Works",
+    "view_project_btn_works":"View Project",
+    "view_site_btn_works":"View Site",
+    
+    "weatherapp_title":"WeatherApp",
+    "weatherapp_description":"WeatherApp is a simple application to check the weather for different cities around the world.",
+    "fft_title":"The Fast Fourier Transform (FFT)",
+    "fft_description":"This code analyzes the frequency content of a simple sine wave using the Fast Fourier Transform (FFT).",
+    "graffart_title":"GraffArt",
+    "graffart_description":"Graffiti art gallery, with an urban style",
+    "portfoliov1_title":"Portfolio v1 John Fajardo",
+    "portfolio_description":"Version 1 of John Fajardo's portfolio",
+    "truthescape_title":"Truth Escape - WebSite",
+    "truthescape_description":"Truth Escape VideoGame Oficial Web Site",
+
+    "title_aboutme":"About me",
+    "description_aboutme":"Programmer and Web Developer passionate about UI/UX design and open source development with more than 4 years of experience in the world of development and technology."
+}

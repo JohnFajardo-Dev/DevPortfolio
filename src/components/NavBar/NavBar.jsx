@@ -1,6 +1,9 @@
 import "./NavBar.css";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
 function NavBar() {
+  const { t } = useTranslation();
   return (
     <nav className="navbar">
       <a href="">
@@ -9,13 +12,16 @@ function NavBar() {
 
       <ul className="menu">
         <li>
-          <a href="#home">home</a>
+          <a href="#home">{t("home_nav")}</a>
         </li>
         <li>
-          <a href="#works">works</a>
+          <a href="#works">{t("works_nav")}</a>
         </li>
         <li>
-          <a href="#about">about</a>
+          <a href="#about">{t("about_nav")}</a>
+        </li>
+        <li>
+          <LanguageSelector />
         </li>
       </ul>
     </nav>
