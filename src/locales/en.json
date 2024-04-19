@@ -1,7 +1,7 @@
 {
-    "home_nav":"home",
-    "works_nav":"works",
-    "about_nav":"about me",
+    "home_nav":"Home",
+    "works_nav":"Works",
+    "about_nav":"About me",
     "greeting_home":"Hi, Im John!",
     "aboutme_home":"Programmer and Web Developer passionate about design and opensource",
     "resume_btn_home":"See CV",

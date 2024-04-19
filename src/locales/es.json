@@ -1,7 +1,7 @@
 {
-    "home_nav":"inicio",
-    "works_nav":"trabajos",
-    "about_nav":"acerca de mi",
+    "home_nav":"Inicio",
+    "works_nav":"Trabajos",
+    "about_nav":"Acerca de mi",
     "greeting_home":"Hola, Soy John!",
 
     "aboutme_home":"Programador y Desarrollador Web apasionado por el diseño y el código abierto",
