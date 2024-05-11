@@ -1,8 +1,8 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
-import Works from "./pages/Works/Works";
 import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <main>
         <Home />
       </main>
-      <Works />
+      <Projects />
       <About />
     </>
   );

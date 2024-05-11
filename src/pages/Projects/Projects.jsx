@@ -1,13 +1,13 @@
 import Cards from "../../components/Cards/Cards";
-import "./Works.css";
+import "./Projects.css";
 import { useTranslation } from "react-i18next";
 
-function Works() {
+function Projects() {
   const { t } = useTranslation();
   return (
-    <section className="works" id="works">
-      <h2 className="title-works">{t("works_title")}</h2>
-      <section className="projects">
+    <section className="projects" id="projects">
+      <h2 className="title-projects">{t("projects_title")}</h2>
+      <section className="projects-cont">
         <Cards
           title={t("weatherapp_title")}
           description={t("weatherapp_description")}
@@ -56,4 +56,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default Projects;

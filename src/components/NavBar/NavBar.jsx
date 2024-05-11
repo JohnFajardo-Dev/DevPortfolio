@@ -15,7 +15,7 @@ function NavBar() {
           <a href="#home">{t("home_nav")}</a>
         </li>
         <li>
-          <a href="#works">{t("works_nav")}</a>
+          <a href="#projects">{t("works_nav")}</a>
         </li>
         <li>
           <a href="#about">{t("about_nav")}</a>

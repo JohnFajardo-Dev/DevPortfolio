@@ -1,6 +1,6 @@
 {
     "home_nav":"Inicio",
-    "works_nav":"Trabajos",
+    "works_nav":"Proyectos",
     "about_nav":"Acerca de mi",
     "greeting_home":"Hola, Soy John!",
 
@@ -11,9 +11,9 @@
 
     "resume_btn_home":"Ver CV",
 
-    "works_title":"Mis Proyectos",
-    "view_project_btn_works":"Ver Proyecto",
-    "view_site_btn_works":"Ver sitio",
+    "projects_title":"Mis Proyectos",
+    "view_project_btn_projects":"Ver Proyecto",
+    "view_site_btn_projects":"Ver sitio",
     
     "weatherapp_title":"WeatherApp",
     "weatherapp_description":"WeatherApp es una sencilla aplicación para consultar el tiempo de diferentes ciudades del mundo.",

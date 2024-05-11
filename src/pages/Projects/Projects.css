@@ -1,13 +1,13 @@
-.works{
+.projects{
     padding: 1em 0;
 }
 
-.title-works{
+.title-projects{
     font-size: 25px;
     color: var(--clean-txt-color);
 }
 
-.projects{
+.projects-cont{
     columns: 3 350px;
     column-gap: 5em;
     margin: 1em 0;

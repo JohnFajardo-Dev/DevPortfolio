@@ -21,7 +21,7 @@ function Cards({ title, description, image, href, skills, website, weblink }) {
               window.open(href, "_blank");
             }}
           >
-            <p>{t("view_project_btn_works")}</p>
+            <p>{t("view_project_btn_projects")}</p>
           </button>
 
           {website ? (
@@ -31,7 +31,7 @@ function Cards({ title, description, image, href, skills, website, weblink }) {
                 window.open(weblink, "_blank");
               }}
             >
-              <p>{t("view_site_btn_works")}</p>
+              <p>{t("view_site_btn_projects")}</p>
             </button>
           ) : (
             <></>
