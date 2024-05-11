@@ -1,6 +1,7 @@
 import "./About.css";
 import Skill from "../../components/Skill/Skill";
 import { useTranslation } from "react-i18next";
+
 function About() {
   const { t } = useTranslation();
   return (
@@ -17,29 +18,29 @@ function About() {
       <section className="skills">
         <h1></h1>
         {/* Programming Languages */}
-        <Skill name="HTML 5" />
-        <Skill name="CSS 3" />
-        <Skill name="JAVASCRIPT" />
-        <Skill name="PYTHON" />
+        <Skill title="HTML 5" />
+        <Skill title="CSS 3" />
+        <Skill title="JAVASCRIPT" />
+        <Skill title="PYTHON" />
         {/* Frameworks and Libraries */}
-        <Skill name="REACT" />
-        <Skill name="NPM" />
-        <Skill name="NODE.JS" />
+        <Skill title="REACT" />
+        <Skill title="NPM" />
+        <Skill title="NODE.JS" />
         {/* Databases */}
-        <Skill name="MONGODB" />
-        <Skill name="MYSQL" />
-        <Skill name="POSTGRES" />
+        <Skill title="MONGODB" />
+        <Skill title="MYSQL" />
+        <Skill title="POSTGRES" />
         {/* Software */}
-        <Skill name="VSCODE" />
-        <Skill name="VIM" />
-        <Skill name="GIT" />
-        <Skill name="GITHUB" />
-        <Skill name="LINUX" />
+        <Skill title="VSCODE" />
+        <Skill title="VIM" />
+        <Skill title="GIT" />
+        <Skill title="GITHUB" />
+        <Skill title="LINUX" />
         {/* Design */}
-        <Skill name="ADOBE PHOTOSHOP" />
-        <Skill name="ADOBE ILLUSTRATOR" />
-        <Skill name="ASEPRITE" />
-        <Skill name="FIGMA" />
+        <Skill title="ADOBE PHOTOSHOP" />
+        <Skill title="ADOBE ILLUSTRATOR" />
+        <Skill title="ASEPRITE" />
+        <Skill title="FIGMA" />
       </section>
     </>
   );

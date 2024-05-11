@@ -1,9 +1,10 @@
 import "./Skill.css";
 import "../../App.css";
-function Skill({ name }) {
+
+function Skill({ title }) {
   return (
     <div className="skill">
-      <p>{name}</p>
+      <p>{title}</p>
     </div>
   );
 }
