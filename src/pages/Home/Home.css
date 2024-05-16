@@ -42,6 +42,10 @@
     cursor: pointer;
 }
 
+.social-icons:hover{
+    border: 3px dashed var(--focus-txt-color);
+}
+
 @media screen and (width <= 900px) {
     .txthome {
       width: 100%;
