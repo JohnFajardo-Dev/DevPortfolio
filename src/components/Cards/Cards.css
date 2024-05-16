@@ -41,11 +41,8 @@
 }
 
 .button-card:hover{
-    background-color: var(--focus-txt-color);
-}
-
-.button-card p:hover{
-    color: var(--main-bg-color);
+    /* background-color: var(--focus-txt-color); */
+    border: 3px dashed var(--focus-txt-color);
 }
 
 .used-skills-cont{

@@ -11,11 +11,6 @@
     font-size: 1rem;
 }
 
-.button:hover, .button p:hover{
-    background-color: var(--focus-txt-color);
-    color: #000;
-}
-
-.button p:hover{
-    color: var(--main-bg-color);
+.button:hover:hover{
+    border: 3px dashed var(--focus-txt-color);
 }
