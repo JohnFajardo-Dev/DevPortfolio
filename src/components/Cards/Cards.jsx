@@ -1,5 +1,8 @@
 import "./Cards.css";
 import { useTranslation } from "react-i18next";
+import { IconContext } from "react-icons";
+
+import { FaGithubAlt, FaExternalLinkAlt } from "react-icons/fa";
 
 function Cards({ title, description, image, href, skills, website, weblink }) {
   const { t } = useTranslation();
@@ -14,29 +17,36 @@ function Cards({ title, description, image, href, skills, website, weblink }) {
 
         <h2 className="title-card">{title}</h2>
         <p className="description-card">{description}</p>
-        <article className="btn-cont">
-          <button
-            className="button-card"
-            onClick={() => {
-              window.open(href, "_blank");
-            }}
-          >
-            <p>{t("view_project_btn_projects")}</p>
-          </button>
-
-          {website ? (
+        <IconContext.Provider value={{ size: "1.25em" }}>
+          <article className="btn-cont">
             <button
               className="button-card"
               onClick={() => {
-                window.open(weblink, "_blank");
+                window.open(href, "_blank");
               }}
             >
-              <p>{t("view_site_btn_projects")}</p>
+              <p>
+                {t("view_project_btn_projects")}
+                <FaGithubAlt />
+              </p>
             </button>
-          ) : (
-            <></>
-          )}
-        </article>
+            {website ? (
+              <button
+                className="button-card"
+                onClick={() => {
+                  window.open(weblink, "_blank");
+                }}
+              >
+                <p>
+                  {t("view_site_btn_projects")}
+                  <FaExternalLinkAlt />
+                </p>
+              </button>
+            ) : (
+              <></>
+            )}
+          </article>
+        </IconContext.Provider>
       </div>
     </article>
   );

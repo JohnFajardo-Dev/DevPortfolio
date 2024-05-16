@@ -33,6 +33,11 @@
     padding: 1rem 2.5rem;
     color: var(--focus-txt-color);
     font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 10px;
 }
 
 .button-card:hover{
