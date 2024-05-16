@@ -4,6 +4,8 @@ import Button from "../../components/Button/Button";
 import "./Home.css";
 import Location from "../../components/Location/Location";
 import { useTranslation } from "react-i18next";
+import { IconContext } from "react-icons";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function Home() {
   const { t } = useTranslation();
@@ -18,6 +20,30 @@ function Home() {
         </h2>
         <Button title={t("resume_btn_home")} />
       </article>
+      <IconContext.Provider value={{ size: "1.5em" }}>
+        <article className="social-section">
+          <ul className="social-bar">
+            <li className="social-icons">
+              <a
+                href="https://github.com/Fajardo-dev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/johnfajardo06/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+            </li>
+          </ul>
+        </article>
+      </IconContext.Provider>
     </section>
   );
 }
