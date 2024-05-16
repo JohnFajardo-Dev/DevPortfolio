@@ -5,7 +5,7 @@ import "./Home.css";
 import Location from "../../components/Location/Location";
 import { useTranslation } from "react-i18next";
 import { IconContext } from "react-icons";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   const { t } = useTranslation();
