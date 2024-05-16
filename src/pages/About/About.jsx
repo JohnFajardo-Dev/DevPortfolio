@@ -5,16 +5,29 @@ import { useTranslation } from "react-i18next";
 function About() {
   const { t } = useTranslation();
   return (
-    <>
-      <section className="about" id="about">
-        <article className="about-txt">
-          <h1>{t("title_aboutme")}</h1>
-          <h2>{t("description_aboutme")}</h2>
-        </article>
-        <article className="img-profile">
-          <img src="assets/profile.jpg" alt="" />
-        </article>
+    <section id="about">
+      <section className="info-aboutme">
+        <h2 className="info-title">{t("description_aboutme")}</h2>
+        <section className="info-aboutme-sections">
+          <article>
+            <h2>{t("aboutme_one_title")}</h2>
+            <p>{t("aboutme_one_description")}</p>
+          </article>
+          <article>
+            <h2>{t("aboutme_two_title")}</h2>
+            <p>{t("aboutme_two_description")}</p>
+          </article>
+          <article>
+            <h2>{t("aboutme_three_title")}</h2>
+            <p>{t("aboutme_three_description")}</p>
+          </article>
+          <article>
+            <h2>{t("aboutme_four_title")}</h2>
+            <p>{t("aboutme_four_description")}</p>
+          </article>
+        </section>
       </section>
+
       <section className="skills">
         <h1></h1>
         {/* Programming Languages */}
@@ -42,7 +55,7 @@ function About() {
         <Skill title="ASEPRITE" />
         <Skill title="FIGMA" />
       </section>
-    </>
+    </section>
   );
 }
 

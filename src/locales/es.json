@@ -27,5 +27,14 @@
     "truthescape_description":"Sitio Web Oficial del videojuego Truth Escape",
 
     "title_aboutme":"Acerca de mi",
-    "description_aboutme":"Programador y Desarrollador Web apasionado por el diseño UI/UX y el desarrollo open source con más de 4 años de experiencia en el mundo del desarrollo y la tecnología."
+    "description_aboutme":"Programador y Desarrollador Web apasionado por el diseño UI/UX y el desarrollo open source con más de 4 años de experiencia en el mundo del desarrollo y la tecnología.",
+
+    "aboutme_one_title":"Programar",
+    "aboutme_one_description":"Mi mayor hobby siempre ha sido programar, crear proyectos personales y aprender cada dia mas.",
+    "aboutme_two_title":"Leer",
+    "aboutme_two_description":"La lectura es parte de mi dia a dia, desde mi tiempo libre hasta mis momentos de trabajo siempre esta presente.",
+    "aboutme_three_title":"Cafe",
+    "aboutme_three_description":"Una taza de café caliente es el complemento perfecto para mis momentos de lectura, tiempo libre o trabajo. ",
+    "aboutme_four_title":"Diseñar",
+    "aboutme_four_description":"Mi pasión por la programación se extiende al diseño. Disfruto creando todo tipo de diseños, como si pintara con píxeles."
 }
