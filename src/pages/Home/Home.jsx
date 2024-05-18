@@ -23,24 +23,25 @@ function Home() {
       <IconContext.Provider value={{ size: "1.5em" }}>
         <article className="social-section">
           <ul className="social-bar">
-            <li className="social-icons">
-              <a
-                href="https://github.com/Fajardo-dev"
-                target="_blank"
-                rel="noreferrer"
-              >
+            <a
+              href="https://github.com/Fajardo-dev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li className="social-icons">
                 <FaGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/johnfajardo06/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              </li>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/johnfajardo06/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li className="social-icons">
                 <FaLinkedin />
-              </a>
-            </li>
+              </li>
+            </a>
           </ul>
         </article>
       </IconContext.Provider>

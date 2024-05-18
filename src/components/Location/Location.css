@@ -9,7 +9,7 @@
 
 .ubi-txt{
     font-size: 14px;
-    color: #fff;
+    color: var(--focus-txt-color);
 }
 
 
