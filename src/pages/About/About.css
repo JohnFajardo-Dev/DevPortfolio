@@ -105,3 +105,32 @@
 .img-indev{
     filter: blur(0.3rem);
 }
+
+/* Colors */
+.orange{
+    color: #e67e22;
+}
+.white-blue{
+    color: #3498db;
+}
+.dark-blue{
+    color: #2980b9;
+}
+.yellow{     
+    color: #f1c40f;
+}
+.white-red{
+    color: #e74c3c;   
+}
+.dark-red{
+    color: #e74c3c;   
+}
+.white-green{
+    color: #2ecc71;
+}
+.dark-green{
+    color: #27ae60;
+}
+.pink{
+    color:#ff6b81;
+}

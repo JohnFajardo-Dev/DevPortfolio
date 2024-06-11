@@ -1,10 +1,10 @@
 import "./Skill.css";
 import "../../App.css";
 
-function Skill({ title }) {
+function Skill(props) {
   return (
-    <div className="skill">
-      <p>{title}</p>
+    <div className={`skill ${props.color}`}>
+      <p>{props.title}</p>
     </div>
   );
 }

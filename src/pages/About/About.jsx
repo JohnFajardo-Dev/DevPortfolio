@@ -30,30 +30,25 @@ function About() {
 
       <section className="skills">
         <h1></h1>
-        {/* Programming Languages */}
-        <Skill title="HTML 5" />
-        <Skill title="CSS 3" />
-        <Skill title="JAVASCRIPT" />
-        <Skill title="PYTHON" />
-        {/* Frameworks and Libraries */}
-        <Skill title="REACT" />
-        <Skill title="NPM" />
-        <Skill title="NODE.JS" />
-        {/* Databases */}
-        <Skill title="MONGODB" />
-        <Skill title="MYSQL" />
-        <Skill title="POSTGRES" />
-        {/* Software */}
-        <Skill title="VSCODE" />
-        <Skill title="VIM" />
-        <Skill title="GIT" />
-        <Skill title="GITHUB" />
-        <Skill title="LINUX" />
-        {/* Design */}
-        <Skill title="ADOBE PHOTOSHOP" />
-        <Skill title="ADOBE ILLUSTRATOR" />
+        <Skill title="PYTHON" color="yellow" />
+        <Skill title="HTML 5" color="orange" />
+        <Skill title="CSS 3" color="white-blue" />
+        <Skill title="JAVASCRIPT" color="yellow" />
+        <Skill title="REACT" color="white-blue" />
+        <Skill title="NODE.JS" color="dark-green" />
+        <Skill title="NPM" color="white-red" />
+        <Skill title="MONGODB" color="white-green" />
+        <Skill title="MYSQL" color="dark-blue" />
+        <Skill title="POSTGRES" color="dark-blue" />
+        <Skill title="LINUX" color="yellow" />
+        <Skill title="VIM" color="dark-green" />
+        <Skill title="VSCODE" color="dark-blue" />
+        <Skill title="GIT" color="dark-red" />
+        <Skill title="GITHUB" color="dark-blue" />
+        <Skill title="ADOBE PHOTOSHOP" color="dark-blue" />
+        <Skill title="ADOBE ILLUSTRATOR" color="orange" />
         <Skill title="ASEPRITE" />
-        <Skill title="FIGMA" />
+        <Skill title="FIGMA" color="pink" />
       </section>
     </section>
   );
