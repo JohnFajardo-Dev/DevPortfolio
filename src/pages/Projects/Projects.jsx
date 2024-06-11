@@ -27,22 +27,6 @@ function Projects() {
           weblink="https://graffart.netlify.app/"
         />
         <Cards
-          title={t("fft_title")}
-          description={t("fft_description")}
-          image="assets/works/FFT.jpg"
-          href="https://github.com/Fajardo-dev/FFT"
-          skills="PYTHON"
-        />
-        <Cards
-          title={t("portfoliov1_title")}
-          description={t("portfolio_description")}
-          image="assets/works/PortfolioV1.jpg"
-          href="https://github.com/Fajardo-dev/Portfolio"
-          skills="HTML CSS JS"
-          website="true"
-          weblink="https://fajardo-dev.netlify.app/"
-        />
-        <Cards
           title={t("truthescape_title")}
           description={t("truthescape_description")}
           image="assets/works/TruthEscape.gif"
@@ -50,6 +34,13 @@ function Projects() {
           skills="REACT"
           website="true"
           weblink="https://truthescape.netlify.app/"
+        />
+        <Cards
+          title={t("fft_title")}
+          description={t("fft_description")}
+          image="assets/works/FFT.jpg"
+          href="https://github.com/Fajardo-dev/FFT"
+          skills="PYTHON"
         />
       </section>
     </section>
