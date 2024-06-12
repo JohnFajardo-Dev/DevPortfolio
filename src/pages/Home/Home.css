@@ -37,13 +37,20 @@
     /* padding: 1.5rem; */
     width: 60px;
     height: 60px;
-    border: 3px solid var(--focus-txt-color);
+    border: 3px solid;
     border-radius: 20px;
     cursor: pointer;
 }
 
+.github-icon{
+    color: #2dba4e;
+}
+.linkedin-icon{
+    color:#0e76a8;
+}
+
 .social-icons:hover{
-    border: 3px dashed var(--focus-txt-color);
+    border: 3px dashed;
 }
 
 @media screen and (width <= 900px) {

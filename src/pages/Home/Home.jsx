@@ -28,7 +28,7 @@ function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <li className="social-icons">
+              <li className="social-icons  github-icon">
                 <FaGithub />
               </li>
             </a>
@@ -38,7 +38,7 @@ function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <li className="social-icons">
+              <li className="social-icons linkedin-icon">
                 <FaLinkedin />
               </li>
             </a>
