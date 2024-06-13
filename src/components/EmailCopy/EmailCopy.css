@@ -25,6 +25,7 @@
     border: 2px solid var(--focus-txt-color);
     padding: 1rem 2rem;
     border-radius: 20px;
+    font-size:1em;
 }
 
 .email-btn{
