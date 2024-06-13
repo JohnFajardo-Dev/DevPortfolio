@@ -27,6 +27,7 @@ function Home() {
               href="https://github.com/Fajardo-dev"
               target="_blank"
               rel="noreferrer"
+              aria-label="Go to github profile"
             >
               <li className="social-icons  github-icon">
                 <FaGithub />
@@ -37,6 +38,7 @@ function Home() {
               href="https://www.linkedin.com/in/johnfajardo06/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Go to linkedin profile"
             >
               <li className="social-icons linkedin-icon">
                 <FaLinkedin />

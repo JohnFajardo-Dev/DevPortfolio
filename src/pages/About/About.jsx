@@ -1,5 +1,6 @@
 import "./About.css";
 import Skill from "../../components/Skill/Skill";
+import EmailCopy from "../../components/EmailCopy/EmailCopy";
 import { useTranslation } from "react-i18next";
 
 function About() {
@@ -27,7 +28,7 @@ function About() {
           </article>
         </section>
       </section>
-
+      <EmailCopy />
       <section className="skills">
         <h1></h1>
         <Skill title="PYTHON" color="yellow" />
