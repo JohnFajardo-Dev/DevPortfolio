@@ -1,6 +1,10 @@
 import "./NavBar.css";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "../LanguageSelector/LanguageSelector";
+import { GrProjects } from "react-icons/gr";
+import { GrHome } from "react-icons/gr";
+import { MdOutlineContactMail } from "react-icons/md";
+import { IconContext } from "react-icons";
 
 function NavBar() {
   const { t } = useTranslation();
@@ -11,18 +15,41 @@ function NavBar() {
       </a>
 
       <ul className="menu">
-        <li>
-          <a href="#home">{t("home_nav")}</a>
-        </li>
-        <li>
-          <a href="#projects">{t("works_nav")}</a>
-        </li>
-        <li>
-          <a href="#about">{t("about_nav")}</a>
-        </li>
-        <li>
-          <LanguageSelector />
-        </li>
+        <IconContext.Provider value={{ size: "1.5em" }}>
+          <li>
+            <a href="#home" className="txt-navbar">
+              {t("home_nav")}
+            </a>
+            <span className="icon-navbar">
+              <a href="#">
+                <GrHome />
+              </a>
+            </span>
+          </li>
+          <li>
+            <a href="#projects" className="txt-navbar">
+              {t("works_nav")}
+            </a>
+            <span className="icon-navbar">
+              <a href="#projects">
+                <GrProjects />
+              </a>
+            </span>
+          </li>
+          <li>
+            <a href="#about" className="txt-navbar">
+              {t("about_nav")}
+            </a>
+            <span className="icon-navbar">
+              <a href="#about">
+                <MdOutlineContactMail />
+              </a>
+            </span>
+          </li>
+          <li>
+            <LanguageSelector />
+          </li>
+        </IconContext.Provider>
       </ul>
     </nav>
   );

@@ -31,3 +31,19 @@
     color: var(--clean-txt-color);
     transition: all 0.2s ease;
 }
+
+.icon-navbar{
+    display: none;
+}
+
+@media screen and (width <= 1000px){
+    .menu li{
+        padding: 1rem;
+    }
+    .txt-navbar{
+        display: none;
+    }
+    .icon-navbar{
+        display: flex;
+    }
+}
