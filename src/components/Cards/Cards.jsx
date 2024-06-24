@@ -11,9 +11,14 @@ function Cards(props) {
       <div className="card">
         <img src={props.image} alt="" className="img-card" />
 
-        <article className="used-skills-cont">
-          <h3 className="used-skills-txt">{props.skills}</h3>
-        </article>
+        <section className="tags">
+          <article className="used-skills-cont">
+            <h3 className="used-skills-txt">{props.skills}</h3>
+          </article>
+          <article className="category-cont">
+            <h3>{props.category}</h3>
+          </article>
+        </section>
 
         <h2 className="title-card">{props.title}</h2>
         <p className="description-card">{props.description}</p>

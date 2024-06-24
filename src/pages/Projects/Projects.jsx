@@ -16,6 +16,7 @@ function Projects() {
           skills="HTML CSS JS"
           website="true"
           weblink="https://fajardo-dev-weatherapp.netlify.app/"
+          category="Frontend"
         />
         <Cards
           title={t("graffart_title")}
@@ -25,6 +26,7 @@ function Projects() {
           skills="REACT"
           website="true"
           weblink="https://graffart.netlify.app/"
+          category="Frontend"
         />
         <Cards
           title={t("truthescape_title")}
@@ -34,6 +36,7 @@ function Projects() {
           skills="REACT"
           website="true"
           weblink="https://truthescape.netlify.app/"
+          category="Frontend"
         />
         <Cards
           title={t("fft_title")}
@@ -41,6 +44,7 @@ function Projects() {
           image="assets/works/FFT.jpg"
           href="https://github.com/Fajardo-dev/FFT"
           skills="PYTHON"
+          category="Software"
         />
       </section>
     </section>
