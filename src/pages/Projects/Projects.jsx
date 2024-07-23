@@ -18,6 +18,16 @@ function Projects() {
           weblink="https://graffart.netlify.app/"
           category="Frontend"
         />
+        <Cards
+          title={t("taskapp_title")}
+          description={t("taskapp_description")}
+          image="assets/works/TaskApp.png"
+          href="https://github.com/Fajardo-dev/TaskApp"
+          skills="REACT"
+          website="true"
+          weblink="https://apptotask.netlify.app/"
+          category="Frontend"
+        />
       </section>
     </section>
   );
