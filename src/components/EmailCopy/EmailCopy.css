@@ -1,6 +1,7 @@
 .email-cont{
     /* background-color: red; */
-    width: min-content;
+    max-width: min-content;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem;

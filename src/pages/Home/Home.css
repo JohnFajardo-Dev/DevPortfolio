@@ -53,16 +53,18 @@
     border: 3px dashed;
 }
 
-@media screen and (width <= 900px) {
+@media (width <= 900px) {
     .txthome {
       width: 100%;
     }
     .start-home{
         flex-direction: column;
+        height: auto;
     }
     .social-bar{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+
 }

@@ -69,3 +69,9 @@ main{
 .icon{
     color: #fff;
 }
+
+@media (width <= 1000px){
+    main{
+        margin: 2rem auto;
+    }
+}
