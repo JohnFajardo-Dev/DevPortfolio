@@ -9,16 +9,6 @@ function Projects() {
       <h2 className="title-projects">{t("projects_title")}</h2>
       <section className="projects-cont">
         <Cards
-          title={t("graffart_title")}
-          description={t("graffart_description")}
-          image="assets/works/GraffArt.png"
-          href="https://github.com/Fajardo-dev/GraffArt"
-          skills="REACT"
-          website="true"
-          weblink="https://graffart.netlify.app/"
-          category="Frontend"
-        />
-        <Cards
           title={t("taskapp_title")}
           description={t("taskapp_description")}
           image="assets/works/TaskApp.png"
