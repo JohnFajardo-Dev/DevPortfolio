@@ -24,7 +24,7 @@ function Home() {
         <article className="social-section">
           <ul className="social-bar">
             <a
-              href="https://github.com/Fajardo-dev"
+              href="https://github.com/JohnFajardo-dev"
               target="_blank"
               rel="noreferrer"
               aria-label="Go to github profile"
