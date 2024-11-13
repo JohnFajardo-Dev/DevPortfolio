@@ -2,7 +2,7 @@
     "home_nav":"Home",
     "works_nav":"Projects",
     "about_nav":"About me",
-    "greeting_home":"Hi, Im John!",
+    "greeting_home":"Hi, Im John Fajardo!",
     "aboutme_home":"Programmer and Web Developer passionate about design and opensource",
     "resume_btn_home":"See CV",
 
@@ -25,5 +25,10 @@
      "aboutme_three_title":"Coffee",
      "aboutme_three_description":"A hot cup of coffee is the perfect complement to my moments of reading, free time or work.",
      "aboutme_four_title":"Design",
-     "aboutme_four_description": "My passion for programming extends to design. I enjoy creating all kinds of designs, as if I were painting with pixels."
+     "aboutme_four_description": "My passion for programming extends to design. I enjoy creating all kinds of designs, as if I were painting with pixels.",
+
+    "education_one_title":"Using methodologies to simulate the operation of electronic products",
+    "education_two_title":"Handling Adobe PhotoShop CS6 Tools",
+    "education_three_title":"Robot programming in integrated manufacturing systems",
+    "education_four_title":"Firmware Programming in Electronic Devices"
 }

@@ -28,7 +28,40 @@ function About() {
           </article>
         </section>
       </section>
-      <EmailCopy />
+      <section className="education-aboutme">
+        <h2 className="education-title">Education</h2>
+        <section className="education-aboutme-sections">
+          <article className="education-item">
+            <h2>{t("education_one_title")}</h2>
+            <p>
+              SENA<span> - </span>
+              <span>Bogota, Colombia</span>
+            </p>
+          </article>
+          <article className="education-item">
+            <h2>{t("education_two_title")}</h2>
+            <p>
+              SENA<span> - </span>
+              <span>Bogota, Colombia</span>
+            </p>
+          </article>
+          <article className="education-item">
+            <h2>{t("education_three_title")}</h2>
+            <p>
+              SENA<span> - </span>
+              <span>Bogota, Colombia</span>
+            </p>
+          </article>
+          <article className="education-item">
+            <h2>{t("education_four_title")}</h2>
+            <p>
+              SENA<span> - </span>
+              <span>Bogota, Colombia</span>
+            </p>
+          </article>
+        </section>
+      </section>
+
       <section className="skills">
         <h1></h1>
         <Skill title="PYTHON" color="yellow" />
@@ -51,6 +84,7 @@ function About() {
         <Skill title="ASEPRITE" />
         <Skill title="FIGMA" color="pink" />
       </section>
+      <EmailCopy />
     </section>
   );
 }

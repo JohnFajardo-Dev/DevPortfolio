@@ -21,7 +21,7 @@
 
 .info-title{
     text-align: center;
-    padding: 3rem 0;
+    padding: 0 0 3rem 0;
     width: 80%;
     margin: auto;
 }
@@ -39,6 +39,45 @@
 .info-aboutme-sections article p{
     text-align: left;
 }
+
+/* EDUCATION ABOUTME */
+
+.education-aboutme{
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0 0 0;
+}
+
+.education-title{
+    text-align: center;
+    padding: 0 0 3rem 0;
+    width: 80%;
+    margin: auto;
+}
+
+.education-aboutme-sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.education-item{
+    border-radius: 10px;
+    height: min-content;
+    padding: 1rem;
+    border: 1px solid var(--clean-txt-color);
+}
+
+.education-item h2{
+    text-align: left;
+    font-size: 20px;
+}
+.education-item p{
+    padding: 0.5rem 0;
+    text-align: left;
+    color: #2dc653;
+}
+
 
 @media (min-width: 900px){
     .about{
@@ -84,6 +123,47 @@
     .info-aboutme-sections article p{
         text-align: center;
     }
+
+/* EDUCATION ABOUTME */
+
+.education-aboutme{
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.education-title{
+    text-align: center;
+    padding: 3rem 0;
+    width: 80%;
+    margin: auto;
+}
+
+.education-aboutme-sections{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.education-item{
+    border-radius: 10px;
+    height: min-content;
+    padding: 1rem;
+    border: 1px solid var(--clean-txt-color);
+}
+
+.education-item h2{
+    text-align: left;
+    font-size: 20px;
+}
+.education-item p{
+    padding: 0.5rem 0;
+    text-align: left;
+    color: #2dc653;
+}
+
+
+
 }
 
 .about-txt h1{

@@ -12,11 +12,11 @@ function LanguageSelector() {
 
   return (
     <select className="selector" onChange={changeLanguage}>
-      <option className="options" value="es">
-        Español
-      </option>
       <option className="options" value="en">
         English
+      </option>
+      <option className="options" value="es">
+        Español
       </option>
     </select>
   );

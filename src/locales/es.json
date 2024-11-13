@@ -2,7 +2,7 @@
     "home_nav":"Inicio",
     "works_nav":"Proyectos",
     "about_nav":"Acerca de mi",
-    "greeting_home":"Hola, Soy John!",
+    "greeting_home":"Hola, Soy John Fajardo!",
 
     "aboutme_home":"Programador y Desarrollador Web apasionado por el diseño y el código abierto",
     
@@ -29,5 +29,10 @@
     "aboutme_three_title":"Cafe",
     "aboutme_three_description":"Una taza de café caliente es el complemento perfecto para mis momentos de lectura, tiempo libre o trabajo. ",
     "aboutme_four_title":"Diseñar",
-    "aboutme_four_description":"Mi pasión por la programación se extiende al diseño. Disfruto creando todo tipo de diseños, como si pintara con píxeles."
+    "aboutme_four_description":"Mi pasión por la programación se extiende al diseño. Disfruto creando todo tipo de diseños, como si pintara con píxeles.",
+
+    "education_one_title":"Uso de Metodologias para la Simulacion del Funcionamiento de Productos Electronicos",
+    "education_two_title":"Manejo de las Herramientas de Adobe PhotoShop CS6",
+    "education_three_title":"Programacion de Robots en Sistemas de Manufactura Integrada",
+    "education_four_title":"Programacion de Firmware en Dispositivos Electronicos"
 }
