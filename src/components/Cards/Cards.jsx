@@ -24,17 +24,22 @@ function Cards(props) {
         <p className="description-card">{props.description}</p>
         <IconContext.Provider value={{ size: "1.25em" }}>
           <article className="btn-cont">
-            <button
-              className="button-card"
-              onClick={() => {
-                window.open(props.href, "_blank");
-              }}
-            >
-              <p>
-                {t("view_project_btn_projects")}
-                <FaGithubAlt />
-              </p>
-            </button>
+            {props.repolink ? (
+              <button
+                className="button-card"
+                onClick={() => {
+                  window.open(props.href, "_blank");
+                }}
+              >
+                <p>
+                  {t("view_project_btn_projects")}
+                  <FaGithubAlt />
+                </p>
+              </button>
+            ) : (
+              <></>
+            )}
+
             {props.website ? (
               <button
                 className="button-card"
