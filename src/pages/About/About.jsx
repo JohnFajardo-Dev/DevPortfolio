@@ -1,6 +1,5 @@
 import "./About.css";
 import Skill from "../../components/Skill/Skill";
-import EmailCopy from "../../components/EmailCopy/EmailCopy";
 import { useTranslation } from "react-i18next";
 
 function About() {
@@ -84,7 +83,6 @@ function About() {
         <Skill title="ASEPRITE" />
         <Skill title="FIGMA" color="pink" />
       </section>
-      <EmailCopy />
     </section>
   );
 }
