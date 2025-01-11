@@ -28,6 +28,17 @@ function Projects() {
           weblink="https://fshopfront.netlify.app/"
           category="FullStack"
         />
+        <Cards
+          title={t("tattooportfolio_title")}
+          description={t("tattooportfolio_description")}
+          image="assets/works/TattooPortfolio.png"
+          skills="REACT"
+          website="true"
+          weblink="https://tattooportfolio.netlify.app/"
+          repolink="true"
+          href="https://github.com/JohnFajardo-Dev/TattooPortfolio"
+          category="Frontend"
+        />
       </section>
     </section>
   );

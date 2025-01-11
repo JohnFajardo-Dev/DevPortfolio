@@ -11,10 +11,13 @@
     "view_site_btn_projects":"View Site",
     
     "taskapp_title":"TaskApp",
-    "taskapp_description":"Aplicacion Web TaskApp",
+    "taskapp_description":"TaskApp Web Application with localstorage",
 
     "fshop_title":"F | Shop",
     "fshop_description":"eCommerce",
+
+    "tattooportfolio_title":"Tattoo Portfolio",
+    "tattooportfolio_description":"Personal Tattoo Studio Portfolio.",
 
 
     "title_aboutme":"About me",

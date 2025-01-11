@@ -17,10 +17,13 @@
     
     
     "taskapp_title":"TaskApp",
-    "taskapp_description":"Aplicacion Web TaskApp",
+    "taskapp_description":"Aplicacion Web TaskApp con localstorage",
 
     "fshop_title":"F | Shop",
     "fshop_description":"eCommerce",
+
+    "tattooportfolio_title":"Tattoo Portfolio",
+    "tattooportfolio_description":"Portafolio de Estudio Tattoo Personal.",
 
 
     "title_aboutme":"Acerca de mi",
