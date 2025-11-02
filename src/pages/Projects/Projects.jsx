@@ -14,7 +14,7 @@ function Projects() {
           image="assets/works/FShop.png"
           skills="REACT"
           website="true"
-          weblink="https://fshopfront.netlify.app/"
+          weblink="https://fjrdmerch.netlify.app/"
           category="FullStack"
         />
       </section>
