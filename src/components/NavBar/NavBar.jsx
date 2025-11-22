@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <a href="">
-        <h1 className="name">JF</h1>
+        <h1 className="name">FJRD</h1>
       </a>
 
       <ul className="menu">
