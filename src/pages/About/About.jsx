@@ -7,7 +7,7 @@ function About() {
   return (
     <section id="about">
       <section className="info-aboutme">
-        <h2 className="info-title">{t("description_aboutme")}</h2>
+        <h1 className="info-title">{t("description_aboutme")}</h1>
         <section className="info-aboutme-sections">
           <article>
             <h2>{t("aboutme_one_title")}</h2>
@@ -28,7 +28,7 @@ function About() {
         </section>
       </section>
       <section className="education-aboutme">
-        <h2 className="education-title">Education</h2>
+        <h1 className="info-title">EDUCATION</h1>
         <section className="education-aboutme-sections">
           <article className="education-item">
             <h2>{t("education_one_title")}</h2>
@@ -61,7 +61,7 @@ function About() {
         </section>
       </section>
 
-      <section>
+      <section className="skill-aboutme">
         <h1 className="info-title">SKILLS</h1>
         <section className="skills">
           <Skill title="PYTHON" color="yellow" />

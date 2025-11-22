@@ -21,7 +21,7 @@
 
 .info-title{
     text-align: center;
-    padding: 0 0 3rem 0;
+    padding: 3rem 0 3rem 0;
     width: 80%;
     margin: auto;
 }
@@ -78,6 +78,9 @@
     color: #2dc653;
 }
 
+.skill-aboutme{
+    padding: 2rem 0;
+}
 
 @media (min-width: 900px){
     .about{
