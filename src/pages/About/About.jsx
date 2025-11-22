@@ -61,27 +61,29 @@ function About() {
         </section>
       </section>
 
-      <section className="skills">
-        <h1></h1>
-        <Skill title="PYTHON" color="yellow" />
-        <Skill title="HTML" color="orange" />
-        <Skill title="CSS" color="white-blue" />
-        <Skill title="JAVASCRIPT" color="yellow" />
-        <Skill title="REACT" color="white-blue" />
-        <Skill title="NODE.JS" color="dark-green" />
-        <Skill title="NPM" color="white-red" />
-        <Skill title="MONGODB" color="white-green" />
-        <Skill title="MYSQL" color="dark-blue" />
-        <Skill title="POSTGRES" color="dark-blue" />
-        <Skill title="LINUX" color="yellow" />
-        <Skill title="VIM" color="dark-green" />
-        <Skill title="VSCODE" color="dark-blue" />
-        <Skill title="GIT" color="dark-red" />
-        <Skill title="GITHUB" color="dark-blue" />
-        <Skill title="ADOBE PHOTOSHOP" color="dark-blue" />
-        <Skill title="ADOBE ILLUSTRATOR" color="orange" />
-        <Skill title="ASEPRITE" />
-        <Skill title="FIGMA" color="pink" />
+      <section>
+        <h1 className="info-title">SKILLS</h1>
+        <section className="skills">
+          <Skill title="PYTHON" color="yellow" />
+          <Skill title="HTML" color="orange" />
+          <Skill title="CSS" color="white-blue" />
+          <Skill title="JAVASCRIPT" color="yellow" />
+          <Skill title="REACT" color="white-blue" />
+          <Skill title="NODE.JS" color="dark-green" />
+          <Skill title="NPM" color="white-red" />
+          <Skill title="MONGODB" color="white-green" />
+          <Skill title="MYSQL" color="dark-blue" />
+          <Skill title="POSTGRES" color="dark-blue" />
+          <Skill title="LINUX" color="yellow" />
+          <Skill title="VIM" color="dark-green" />
+          <Skill title="VSCODE" color="dark-blue" />
+          <Skill title="GIT" color="dark-red" />
+          <Skill title="GITHUB" color="dark-blue" />
+          <Skill title="ADOBE PHOTOSHOP" color="dark-blue" />
+          <Skill title="ADOBE ILLUSTRATOR" color="orange" />
+          <Skill title="ASEPRITE" />
+          <Skill title="FIGMA" color="pink" />
+        </section>
       </section>
     </section>
   );
