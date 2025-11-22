@@ -64,8 +64,8 @@ function About() {
       <section className="skills">
         <h1></h1>
         <Skill title="PYTHON" color="yellow" />
-        <Skill title="HTML 5" color="orange" />
-        <Skill title="CSS 3" color="white-blue" />
+        <Skill title="HTML" color="orange" />
+        <Skill title="CSS" color="white-blue" />
         <Skill title="JAVASCRIPT" color="yellow" />
         <Skill title="REACT" color="white-blue" />
         <Skill title="NODE.JS" color="dark-green" />
