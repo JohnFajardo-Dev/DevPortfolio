@@ -18,35 +18,35 @@ function Home() {
           {t("aboutme_home")}
           <Location />
         </h2>
-        <Button title={t("resume_btn_home")} />
-      </article>
-      <IconContext.Provider value={{ size: "1.5em" }}>
-        <article className="social-section">
-          <ul className="social-bar">
-            <a
-              href="https://github.com/JohnFajardo-dev"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Go to github profile"
-            >
-              <li className="social-icons  github-icon">
-                <FaGithub />
-              </li>
-            </a>
+        <IconContext.Provider value={{ size: "1.5em" }}>
+          <article className="social-section">
+            <ul className="social-bar">
+              <Button title={t("resume_btn_home")} />
+              <a
+                href="https://github.com/JohnFajardo-dev"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Go to github profile"
+              >
+                <li className="social-icons  github-icon">
+                  <FaGithub />
+                </li>
+              </a>
 
-            <a
-              href="https://www.linkedin.com/in/johnfajardo06/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Go to linkedin profile"
-            >
-              <li className="social-icons linkedin-icon">
-                <FaLinkedin />
-              </li>
-            </a>
-          </ul>
-        </article>
-      </IconContext.Provider>
+              <a
+                href="https://www.linkedin.com/in/johnfajardo06/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Go to linkedin profile"
+              >
+                <li className="social-icons linkedin-icon">
+                  <FaLinkedin />
+                </li>
+              </a>
+            </ul>
+          </article>
+        </IconContext.Provider>
+      </article>
     </section>
   );
 }
