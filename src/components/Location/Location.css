@@ -8,15 +8,15 @@
 }
 
 .ubi-txt{
-    font-size: 14px;
+    font-size: 20px;
     color: var(--focus-txt-color);
 }
 
 
 .ubi-state{
     border-radius: 100%;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: #2dc653;
     border: none;
 }

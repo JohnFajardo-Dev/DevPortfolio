@@ -12,7 +12,7 @@ function Home() {
   return (
     <section className="start-home" id="home">
       <article>
-        <h1 className="focustxt">{t("greeting_home")}</h1>
+        <h1 className="focustxt hitxt">{t("greeting_home")}</h1>
 
         <h2 className="txthome">
           {t("aboutme_home")}

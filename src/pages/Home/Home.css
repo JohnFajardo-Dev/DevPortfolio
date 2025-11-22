@@ -1,6 +1,6 @@
 .txthome{
-    padding: 1em 0;
-    font-size: 25px;
+    padding: 2rem 0 3rem 0;
+    font-size: 30px;
     color: var(--focus-txt-color);
     line-height: 1.5;
     width: 50ch;
@@ -13,6 +13,10 @@
 
 .icons-side{
     display: inline-grid;
+}
+
+.hitxt{
+    font-size: 40px;
 }
 
 
