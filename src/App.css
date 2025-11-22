@@ -73,7 +73,7 @@ main{
 
 @media (width <= 1000px){
     main{
-        margin: 5rem auto;
+        margin: 4rem auto;
         height: auto;
     }
 }
