@@ -11,7 +11,7 @@ function Projects() {
         <Cards
           title={t("fshop_title")}
           description={t("fshop_description")}
-          image="assets/works/FShop.png"
+          image="assets/works/FJRD-MERCH.png"
           skills="REACT"
           website="true"
           weblink="https://fjrdmerch.netlify.app/"
